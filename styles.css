@@ -2,13 +2,14 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #f3f3f3;
     box-sizing: border-box;
+    font-size: 14px;
 }
 .topo {
     height: 80px;
     width: 100%;
     position: fixed;
     top:0;   
-    right: 0;    
+    left: 0;    
     display: flex;
     justify-content: space-between;
     align-items: center;    
@@ -43,9 +44,43 @@ input{
     border: none;
     width: 80vw;
     height: 50px;
+    font-size: 18px;
 }
 ion-icon{
     width: 26px;
     height: 26px;
-    margin-right: 18px;
+    margin-right: 17px;
+}
+.status{
+    background-color: #dcdcdc;
+    width: 100%;
+    padding: 9px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.message{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 9px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.private-message{
+    background-color: #FFDEDE;
+    width: 100%;
+    padding: 9px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+span {
+    font-weight: 700;
+}
+.mensagens{
+    margin-top:80px;
+    margin-bottom: 80px;
 }
