@@ -15,9 +15,6 @@ body{
     align-items: center;    
     background-color: white;
 }
-.mensagens{
-    margin-top: 80px;
-}
 .logo {
     width: 75px;
     height: 53px;
@@ -57,7 +54,9 @@ ion-icon{
     padding: 9px;
     height: 40px;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    margin: 2px 0; 
+       
 }
 .message{
     background-color: #ffffff;
@@ -67,8 +66,11 @@ ion-icon{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    word-wrap: break-word;
+    margin: 2px 0;
+    
 }
-.private-message{
+.private_message{
     background-color: #FFDEDE;
     width: 100%;
     padding: 9px;
@@ -76,11 +78,23 @@ ion-icon{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    word-wrap: break-word;
+    margin: 2px 0;    
 }
-span {
+.bold {
     font-weight: 700;
 }
+.tempo {
+    color:#aaaaaa;
+}
 .mensagens{
-    margin-top:80px;
+    margin-top:100px;
     margin-bottom: 80px;
+    overflow: hidden;
+}
+.ultima{    
+}
+button{
+    background-color: #ffffff;
+    border: none;
 }
